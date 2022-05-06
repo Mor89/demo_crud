@@ -46,11 +46,9 @@ public void guardarRegistros(String tabla, String camposTabla, String valoresCam
         System.out.println("Registro guardado correctamente!");
     }catch(Exception e){
         System.out.println(e.getMessage());
-    }
-
-    
-      
+    }     
 }
+// Metodo actualizar y eliminar
 public void actualizarEliminarRegistro(String tabla, String valoresCamposNuevos, String Condicion){
     
     ConexionCRUD conectar = new ConexionCRUD();
