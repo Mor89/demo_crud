@@ -14,7 +14,7 @@ import java.sql.Statement;
 
 public class ConexionCRUD_Estudiante {
 
-   
+   //Creando la conexion a la base de datos --Graciela--
     private final String servidor = "jdbc:mysql://127.0.0.1:3306/bd_estudiante";
    
     private final String usuario = "root";
@@ -42,7 +42,7 @@ public class ConexionCRUD_Estudiante {
     }
     
     
-
+//Metodo guardar registros Marlin Gabriela Rosales Garcia
     public void guardarRegistros(String tabla, String camposTabla, String valoresCampos) {
         ConexionCRUD_Estudiante conectar = new ConexionCRUD_Estudiante();
         Connection cone = conectar.getConnection();
@@ -60,7 +60,7 @@ public class ConexionCRUD_Estudiante {
             System.out.println(e.getMessage());
         }
     }
- // Toda esta parte es mi aporte al proyecto MARLIN GABRIELA ROSALES GARCIA
+ // Metodo actualizar y eliminar MARLIN GABRIELA ROSALES GARCIA
     public void actualizarEliminarRegistro(String tabla, String valoresCamposNuevos, String condicion) {
 
         ConexionCRUD_Estudiante conectar = new ConexionCRUD_Estudiante();
@@ -84,7 +84,7 @@ public class ConexionCRUD_Estudiante {
 
         }
     }
-            
+          // Este es un metodo para deplegar los registros **Marlin Gabriela Rosales Garcia 
     public void desplegarRegistros(String tablaBuscar, String campoBuscar, String condicionBuscar) throws SQLException {
         ConexionCRUD_Estudiante conectar = new ConexionCRUD_Estudiante();
         Connection cone = conectar.getConnection();
@@ -114,7 +114,7 @@ public class ConexionCRUD_Estudiante {
 
                         System.out.printf("%-20s\t", metaData.getColumnName(i));
                     }
-
+//REGISTROS ALMACENADOS MARLIN GABRIELA ROSALES GARCIA
                     System.out.println();
                     do {
                         for (int i = 1; i <= numColumnas; i++) {
@@ -131,14 +131,14 @@ public class ConexionCRUD_Estudiante {
                 }
                 miResultSet.close();
             } finally {
-
+//NO SE HAN ENCONTRADO REGISTROS MARLIN GABRIELA 
                 stmt.close();
                 cone.close();
             }
         } catch (SQLException ex) {
 
             System.out.println("HA OCURRIDO EL SIGUIENTE ERROR: " + ex.getMessage());
-  //aporte al proyecto
+  //Aporte al proyecto Marlin Gabriela Rosales Garcia
         }
     }
 }

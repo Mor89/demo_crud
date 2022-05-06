@@ -1,7 +1,7 @@
 
 package recursohumano;
 
-//Escribir las variables
+//Las variables de los datos
 public class Persona {
     private int idPersona;
     private String nomPersona;
