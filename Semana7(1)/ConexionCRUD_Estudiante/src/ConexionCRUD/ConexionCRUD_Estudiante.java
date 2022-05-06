@@ -84,7 +84,7 @@ public class ConexionCRUD_Estudiante {
 
         }
     }
-          //metodo deplegar registros Marlin Gabriela Rosales  
+          // Este es un metodo para deplegar los registros **Marlin Gabriela Rosales Garcia 
     public void desplegarRegistros(String tablaBuscar, String campoBuscar, String condicionBuscar) throws SQLException {
         ConexionCRUD_Estudiante conectar = new ConexionCRUD_Estudiante();
         Connection cone = conectar.getConnection();
