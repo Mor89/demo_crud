@@ -8,7 +8,7 @@ public class MenuPrincipalEstudiante {
     public static void main(String[] args) throws SQLException {
         MenuDesplegable();
     }
-    // Creando el menu --Graciela--
+    // Creando el menu --Graciela Carolina Hernandez--
     static void MenuDesplegable() throws SQLException {
         Scanner opcion = new Scanner(System.in);
         String MenuOp;
