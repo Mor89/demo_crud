@@ -4,14 +4,14 @@ package recursohumano;
 import java.sql.SQLException;
 import java.util.Scanner;
 
+//CREAR TABLA
 public class Create {
 
     Create() throws SQLException {
         Scanner leer = new Scanner(System.in);
         Persona person = new Persona();
         System.out.println("<<CREAR REGISTRO>>");
-        
-        //Datos para Guardar Registros 
+       //CREAR LOS CAMPOS PARA LA TABLA 
         System.out.println("Nombre");
         person.setNomPersona(leer.nextLine());
 
