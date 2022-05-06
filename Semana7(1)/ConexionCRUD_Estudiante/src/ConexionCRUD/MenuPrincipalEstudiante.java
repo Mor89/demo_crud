@@ -29,7 +29,6 @@ public class MenuPrincipalEstudiante {
         switch (MenuOp) {
 
             case "1":
-                // Crear registro
                 Create create = new Create();
                 break;
             case "2":
@@ -37,11 +36,9 @@ public class MenuPrincipalEstudiante {
               Read read = new Read();
                 break;
             case "3":
-                // Actualizar registro
               Update update = new Update();
                 break;
             case "4":
-                //Eliminar registro
                Delete delete = new Delete();
                 break;
             case "5":
