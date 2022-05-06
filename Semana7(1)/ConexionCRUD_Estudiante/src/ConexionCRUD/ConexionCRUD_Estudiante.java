@@ -131,7 +131,7 @@ public class ConexionCRUD_Estudiante {
                 }
                 miResultSet.close();
             } finally {
-
+//NO SE HAN ENCONTRADO REGISTROS MARLIN GABRIELA 
                 stmt.close();
                 cone.close();
             }
