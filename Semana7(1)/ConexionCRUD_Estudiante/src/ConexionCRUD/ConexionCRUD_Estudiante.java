@@ -14,7 +14,7 @@ import java.sql.Statement;
 
 public class ConexionCRUD_Estudiante {
 
-   
+   //Creando la conexion a la base de datos --Graciela--
     private final String servidor = "jdbc:mysql://127.0.0.1:3306/bd_estudiante";
    
     private final String usuario = "root";
