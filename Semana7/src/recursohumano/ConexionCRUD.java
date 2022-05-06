@@ -31,7 +31,7 @@ public Connection getConnection(){
     return conexion;
 }
 
-
+//Metodo praguardar registro
 public void guardarRegistros(String tabla, String camposTabla, String valoresCampos){
     ConexionCRUD conectar = new ConexionCRUD();
     Connection cone = conectar.getConnection();
