@@ -7,7 +7,7 @@ public class Persona {
     private String nomPersona;
     private String emailPersona;
     private String TelPersona;
-
+//UTILIZANDO LOS METODOS GET Y SET
     public int getIdPersona() {
         return idPersona;
     }
