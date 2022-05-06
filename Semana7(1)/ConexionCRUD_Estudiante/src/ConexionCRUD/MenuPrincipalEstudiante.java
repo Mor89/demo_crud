@@ -8,11 +8,11 @@ public class MenuPrincipalEstudiante {
     public static void main(String[] args) throws SQLException {
         MenuDesplegable();
     }
-    // Creando el menu --Graciela--
+             // --Graciela Carolina Hernandez--
     static void MenuDesplegable() throws SQLException {
         Scanner opcion = new Scanner(System.in);
         String MenuOp;
-
+                     // Creando el menu 
         System.out.println("------------------------------");
         System.out.println("         OPCIONES:            ");
         System.out.println("------------------------------");
@@ -29,7 +29,7 @@ public class MenuPrincipalEstudiante {
         switch (MenuOp) {
 
             case "1":
-                // Crear registro
+                // Creando registro
                 Create create = new Create();
                 break;
             case "2":
@@ -37,12 +37,12 @@ public class MenuPrincipalEstudiante {
               Read read = new Read();
                 break;
             case "3":
-                // Actualizar registro
+                // Actualizando registro
               Update update = new Update();
                 break;
             case "4":
-                //Eliminar registro
-               Delete delete = new Delete();
+                // Eliminando registro
+                Delete delete = new Delete();
                 break;
             case "5":
                 System.exit(0);
