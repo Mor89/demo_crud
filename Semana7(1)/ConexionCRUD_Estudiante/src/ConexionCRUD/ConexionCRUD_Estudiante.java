@@ -42,7 +42,7 @@ public class ConexionCRUD_Estudiante {
     }
     
     
-
+//Metodo guardar registros Marlin Gabriela Rosales Garcia
     public void guardarRegistros(String tabla, String camposTabla, String valoresCampos) {
         ConexionCRUD_Estudiante conectar = new ConexionCRUD_Estudiante();
         Connection cone = conectar.getConnection();
@@ -60,7 +60,7 @@ public class ConexionCRUD_Estudiante {
             System.out.println(e.getMessage());
         }
     }
- // Toda esta parte es mi aporte al proyecto MARLIN GABRIELA ROSALES GARCIA
+ // Metodo actualizar y eliminar MARLIN GABRIELA ROSALES GARCIA
     public void actualizarEliminarRegistro(String tabla, String valoresCamposNuevos, String condicion) {
 
         ConexionCRUD_Estudiante conectar = new ConexionCRUD_Estudiante();
@@ -84,7 +84,7 @@ public class ConexionCRUD_Estudiante {
 
         }
     }
-            
+          //metodo deplegar registros Marlin Gabriela Rosales  
     public void desplegarRegistros(String tablaBuscar, String campoBuscar, String condicionBuscar) throws SQLException {
         ConexionCRUD_Estudiante conectar = new ConexionCRUD_Estudiante();
         Connection cone = conectar.getConnection();
