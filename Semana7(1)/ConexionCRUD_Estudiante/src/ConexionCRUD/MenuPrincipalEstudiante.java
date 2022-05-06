@@ -37,10 +37,12 @@ public class MenuPrincipalEstudiante {
               Read read = new Read();
                 break;
             case "3":
+                // Actualizando registro
               Update update = new Update();
                 break;
             case "4":
-               Delete delete = new Delete();
+                // Eliminando registro
+                Delete delete = new Delete();
                 break;
             case "5":
                 System.exit(0);
