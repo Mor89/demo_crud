@@ -10,7 +10,8 @@ public class Create {
         Scanner leer = new Scanner(System.in);
         Persona person = new Persona();
         System.out.println("<<CREAR REGISTRO>>");
-
+        
+        //Datos para Guardar Registros 
         System.out.println("Nombre");
         person.setNomPersona(leer.nextLine());
 
