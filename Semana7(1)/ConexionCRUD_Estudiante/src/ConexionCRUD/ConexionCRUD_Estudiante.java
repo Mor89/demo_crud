@@ -114,7 +114,7 @@ public class ConexionCRUD_Estudiante {
 
                         System.out.printf("%-20s\t", metaData.getColumnName(i));
                     }
-
+//REGISTROS ALMACENADOS MARLIN GABRIELA ROSALES GARCIA
                     System.out.println();
                     do {
                         for (int i = 1; i <= numColumnas; i++) {
