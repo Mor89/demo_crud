@@ -10,6 +10,7 @@ public class Create {
         Estudiante estudian = new Estudiante();
         System.out.println("<<CREAR REGISTRO>>");
         
+        //En este momento se escribiran los datod para crear la tabla
         System.out.println("Carnet");
         estudian.setCarnet_estudiante(leer.nextInt());
         
