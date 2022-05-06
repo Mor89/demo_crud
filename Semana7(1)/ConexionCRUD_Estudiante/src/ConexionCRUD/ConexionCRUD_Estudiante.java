@@ -138,7 +138,7 @@ public class ConexionCRUD_Estudiante {
         } catch (SQLException ex) {
 
             System.out.println("HA OCURRIDO EL SIGUIENTE ERROR: " + ex.getMessage());
-  //aporte al proyecto
+  //Aporte al proyecto Marlin Gabriela Rosales Garcia
         }
     }
 }
